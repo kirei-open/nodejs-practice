@@ -33,10 +33,10 @@ npm install ejs --save
 
 - **Initial Setup**
 
-* [ ] Install NPM & Nodejs
-* [ ] Install Express
-* [ ] Install ejs
-* [ ] Setup Initial express app
+* [x] Install NPM & Nodejs
+* [x] Install Express
+* [x] Install ejs
+* [x] Setup Initial express app
 
 * **Setup API Routes**:
 
