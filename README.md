@@ -44,18 +44,18 @@ npm install ejs --save
 
 #### **Setup API Routes**:
 
-- [ ] GET: Get All Activity (/api/todos)
-- [ ] GET: Get One Activity (/api/todo/:id)
-- [ ] POST: Create Activity (/api/todos)
-- [ ] PUT: Update Activity (/api/todo/:id)
-- [ ] DELETE: DELETE Activity (/api/todo/:id)
+- [x] GET: Get All Activity (/api/todos)
+- [x] GET: Get One Activity (/api/todo/:id)
+- [x] POST: Create Activity (/api/todos)
+- [x] PUT: Update Activity (/api/todo/:id)
+- [x] DELETE: DELETE Activity (/api/todo/:id)
 
 #### **Setup View Routes**:
 
-- [ ] View All Activity (/todos)
-- [ ] Get an Activity Detail (/todo/:id)
-- [ ] Create an Activity (/todo/new)
-- [ ] Edit an Activity (/todo/update/:id)
+- [x] View All Activity (/todos)
+- [x] Get an Activity Detail (/todo/:id)
+- [x] Create an Activity (/todo/new)
+- [x] Edit an Activity (/todo/update/:id)
 
 #### Notes
 
