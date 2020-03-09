@@ -7,7 +7,9 @@ Learn to build basic NodeJS + Express App
 Belajar membuat aplikasi To-Do List dengan menggunakan Nodejs + Express dan module fs (filesystem)
 
 ## Usage
+
 Clone this repository
+
 ```
 git clone https://github.com/kirei-open/nodejs-practice.git
 ```
@@ -31,14 +33,16 @@ npm install ejs --save
 
 ## Milestones
 
-- **Initial Setup**
+### Stage One
 
-* [x] Install NPM & Nodejs
-* [x] Install Express
-* [x] Install ejs
-* [x] Setup Initial express app
+#### **Initial Setup**
 
-* **Setup API Routes**:
+- [x] Install NPM & Nodejs
+- [x] Install Express
+- [x] Install ejs
+- [x] Setup Initial express app
+
+#### **Setup API Routes**:
 
 - [ ] GET: Get All Activity (/api/todos)
 - [ ] GET: Get One Activity (/api/todo/:id)
@@ -46,17 +50,35 @@ npm install ejs --save
 - [ ] PUT: Update Activity (/api/todo/:id)
 - [ ] DELETE: DELETE Activity (/api/todo/:id)
 
-* **Setup View Routes**:
+#### **Setup View Routes**:
 
 - [ ] View All Activity (/todos)
 - [ ] Get an Activity Detail (/todo/:id)
 - [ ] Create an Activity (/todo/new)
 - [ ] Edit an Activity (/todo/update/:id)
 
-## Notes
+#### Notes
 
 Setiap pembacaan/perubahan/penambahan activity, harus melihat isi file _data.json_ menggunakan module fs
 
+### Stage Two
+
+#### **Setup DB**
+
+- [ ] Install MySQL
+- [ ] Setup User Authentication
+
+#### **Setup Model** (raw sql)
+
+- [ ] User Model
+- [ ] Activity Model
+
+#### **Setup Authentication Schema** (raw sql)
+
+- [ ] Login View & Schema
+- [ ] Logout Schema
+- [ ] User Profile
 
 ## Prototype
+
 View the prototype here on [Figma](https://www.figma.com/proto/faV6p1i4bpFxo0itRb5jE1/To-Do-LIst?node-id=1%3A2&scaling=contain)
