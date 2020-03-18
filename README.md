@@ -65,19 +65,26 @@ Setiap pembacaan/perubahan/penambahan activity, harus melihat isi file _data.jso
 
 #### **Setup DB**
 
-- [ ] Install MySQL
+- [x] Install MySQL
 - [ ] Setup User Authentication
 
 #### **Setup Model** (raw sql)
 
-- [ ] User Model
-- [ ] Activity Model
+- [x] User Model
+- [x] Activity Model
 
 #### **Setup Authentication Schema** (raw sql)
 
-- [ ] Login View & Schema
-- [ ] Logout Schema
-- [ ] User Profile
+- [x] Login View & Schema
+- [x] Register User
+- [x] Logout Schema
+- [x] (CRUD) User Profile
+- [x] User Roles
+
+#### **Form Validation**
+
+- [ ] Validation HTML
+- [ ] Validation request body (API) -> email, password -> Express validator / Joi
 
 ## Prototype
 
